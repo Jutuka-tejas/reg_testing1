@@ -1,0 +1,41 @@
+<html>
+  <body bgcolor="cyan">
+    <center>
+      <h1>STUDENT REGISTRATION FORM</h1>
+      <form>
+        <p>Name: <input type="text" name="name" /></p>
+                <p>Password: <input type="password" name="password" /></p>
+                <p>Father's Name: <input type="text" name="father_name" /></p>
+                <p>D.O.B: <input type="date" name="dob" /></p>
+        <p>Gender: 
+          <label><input type="radio" value="male" name="gender" /> Male</label>
+          <label><input type="radio" value="female" name="gender" /> Female</label>
+        </p>
+        <p>Address: <textarea rows="3" cols="30"></textarea></p>
+        <p>Email ID: <input type="email" name="email" /></p>
+        <p><label>Specialization Details:</label></p>
+       
+              <select name="branch">
+                <option value="CSE" selected>CSE</option>
+                <option value="EEE">EEE</option>
+				<option value="MECH" selected>MECH</option>
+                <option value="CIVIL">CIVIL</option>
+              </select>
+                        
+       <p>Languages Known:</p>
+        C: <input type="checkbox" name="languages" value="C" /> 
+       C++: <input type="checkbox" name="languages" value="C++" >
+        java: <input type="checkbox" name="languages" value="java" > 
+        .NET: <input type="checkbox" name="languages" value=".net" >
+        Others: <input type="checkbox" name="languages" value="others" ><br>
+        <p>Place: <input type="text" name="place" /></p>
+        <p>Upload Your Photo: <input type="file" name="photo" /></p>
+        <p>
+          <input type="submit" value="Register" />
+          <input type="reset" value="Clear" />
+        </p>
+      </form>
+    </center>
+  </body>
+</html>
+
