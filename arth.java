@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ArithmeticOperations {
+public class arth{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
